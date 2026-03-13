@@ -1,12 +1,6 @@
 # Atividade-dos-desafios
 # Desafios de JavaScript: Objetos, Protótipos e JSON
 
-Este repositório contém a resolução de 5 desafios focados no funcionamento interno de objetos em JavaScript, desde a sua criação, herança, restrições de acesso até a conversão para JSON.
-
-Para testar os códigos, basta correr `node nome_do_ficheiro.js` no terminal.
-
----
-
 ## Desafio 1: A Natureza do Objeto e o Paradoxo do `const`
 
 **Pesquisa Teórica: O que é exatamente um objeto literal em JavaScript?**
