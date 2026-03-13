@@ -48,7 +48,7 @@ ________________________________________________________________________________
 // Desafio 3: O Controle de Acesso e Bloqueios
 
 const contaBancaria = {
-    _saldo: 1000, // Convenção: '_' indica que a propriedade deve ser tratada como privada
+    _saldo: 1000,
     
     get saldo() {
         return this._saldo;
@@ -65,8 +65,8 @@ const contaBancaria = {
 };
 
 console.log("Saldo Inicial:", contaBancaria.saldo);
-contaBancaria.saldo = -500; // Dispara o console.error e não altera
-contaBancaria.saldo = 1200; // Atualiza corretamente
+contaBancaria.saldo = -500;
+contaBancaria.saldo = 1200;
 
 
 console.log("\n--- PARTE 2: Seal vs Freeze ---");
@@ -104,7 +104,7 @@ Carro.marca = "Toyota";
 Carro.modelo = "Corolla";
 
 console.log(`Carro: ${Carro.marca} ${Carro.modelo}`);
-console.log(`Quantas rodas tem o carro? ${Carro.rodas}`); // Herdado de Veiculo
+console.log(`Quantas rodas tem o carro? ${Carro.rodas}`);
 
 Carro.acelerar();
 
@@ -115,9 +115,9 @@ ________________________________________________________________________________
 // Desafio 5: O Trânsito de Dados (JSON vs. JS Object)
 
 const utilizadorJS = {
-    nome: "Ana Silva",         // String
-    pontuacao: 95,             // Número
-    cumprimentar: function() { // Função
+    nome: "Ana Silva",        
+    pontuacao: 95,            
+    cumprimentar: function() {
         return `Olá, eu sou a ${this.nome}`;
     }
 };
